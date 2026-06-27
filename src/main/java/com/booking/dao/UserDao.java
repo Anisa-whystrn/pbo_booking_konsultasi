@@ -52,7 +52,7 @@ public class UserDao {
     // READ - Ambil semua user
     public List<User> getAllUsers() throws SQLException {
         List<User> list = new ArrayList<>();
-        String sql = "SELECT * FROM users ORDER BY id DESC";
+        String sql = "SELECT * FROM users ORDER BY id ASC";
         try (Connection c = DatabaseConnection.getConnection();
              Statement s = c.createStatement();
              ResultSet rs = s.executeQuery(sql)) {
