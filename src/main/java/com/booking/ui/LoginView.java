@@ -24,7 +24,7 @@ public class LoginView extends JFrame {
         header.setBackground(new Color(67, 97, 238));
         header.setPreferredSize(new Dimension(0, 120));
         header.setLayout(new GridBagLayout());
-        JLabel title = new JLabel("\uD83D\uDD0D Booking Konsultasi");
+        JLabel title = new JLabel("SIBOS");
         title.setFont(new Font("Segoe UI", Font.BOLD, 24));
         title.setForeground(Color.WHITE);
         header.add(title);

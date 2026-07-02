@@ -1,17 +1,18 @@
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\dao\BookingDao.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\dao\JadwalDao.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\dao\UserDao.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\Main.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\model\Admin.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\model\Booking.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\model\Dosen.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\model\JadwalKonsultasi.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\model\Mahasiswa.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\model\User.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\report\LaporanBookingImpl.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\report\LaporanService.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\ui\AdminDashboard.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\ui\DosenDashboard.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\ui\LoginView.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\ui\MahasiswaDashboard.java
-D:\smt 4\oop\projek_konsultasi\src\main\java\com\booking\util\DatabaseConnection.java
+D:\projek_konsultasi\src\main\java\com\booking\dao\BookingDao.java
+D:\projek_konsultasi\src\main\java\com\booking\dao\JadwalDao.java
+D:\projek_konsultasi\src\main\java\com\booking\dao\UserDao.java
+D:\projek_konsultasi\src\main\java\com\booking\Main.java
+D:\projek_konsultasi\src\main\java\com\booking\model\Admin.java
+D:\projek_konsultasi\src\main\java\com\booking\model\Booking.java
+D:\projek_konsultasi\src\main\java\com\booking\model\Dosen.java
+D:\projek_konsultasi\src\main\java\com\booking\model\JadwalKonsultasi.java
+D:\projek_konsultasi\src\main\java\com\booking\model\Loginable.java
+D:\projek_konsultasi\src\main\java\com\booking\model\Mahasiswa.java
+D:\projek_konsultasi\src\main\java\com\booking\model\User.java
+D:\projek_konsultasi\src\main\java\com\booking\report\LaporanBookingImpl.java
+D:\projek_konsultasi\src\main\java\com\booking\report\LaporanService.java
+D:\projek_konsultasi\src\main\java\com\booking\ui\AdminDashboard.java
+D:\projek_konsultasi\src\main\java\com\booking\ui\DosenDashboard.java
+D:\projek_konsultasi\src\main\java\com\booking\ui\LoginView.java
+D:\projek_konsultasi\src\main\java\com\booking\ui\MahasiswaDashboard.java
+D:\projek_konsultasi\src\main\java\com\booking\util\DatabaseConnection.java

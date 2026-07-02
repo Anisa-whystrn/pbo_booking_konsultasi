@@ -10,6 +10,7 @@ public class Booking {
     private String nimMahasiswa;  // ✅ Tambah field ini
     private String namaDosen;
     private String topikSkripsi;
+
     private String lokasi;
     private String statusBooking;
     private Timestamp createdAt;
@@ -23,6 +24,7 @@ public class Booking {
     public void setMahasiswaId(int mahasiswaId) { this.mahasiswaId = mahasiswaId; }
     public String getNamaMahasiswa() { return namaMahasiswa; }
     public void setNamaMahasiswa(String namaMahasiswa) { this.namaMahasiswa = namaMahasiswa; }
+    
     
     // ✅ Getter & Setter untuk NIM
     public String getNimMahasiswa() { return nimMahasiswa; }

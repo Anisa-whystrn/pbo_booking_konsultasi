@@ -119,6 +119,7 @@ public class BookingDao {
         }
     }
     
+    
     public void updateLokasi(int idBooking, String lokasi) throws SQLException {
         String sql = "UPDATE booking SET lokasi=? WHERE id_booking=?";
         try (Connection c = DatabaseConnection.getConnection();

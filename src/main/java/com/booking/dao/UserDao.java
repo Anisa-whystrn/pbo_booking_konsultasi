@@ -12,7 +12,7 @@ public class UserDao {
     public User login(String username, String password) throws SQLException {
         String sql = "SELECT * FROM users WHERE username=? AND password=?";
         try (Connection c = DatabaseConnection.getConnection();
-             PreparedStatement ps = c.prepareStatement(sql)) {
+            PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setString(1, username);
             ps.setString(2, password);
             ResultSet rs = ps.executeQuery();
@@ -23,12 +23,19 @@ public class UserDao {
                 String em = rs.getString("email");
                 String pw = rs.getString("password");
                 String nim = rs.getString("nim_nip");
-                
-                // Polymorphism: buat objek sesuai role
+            
+                User user;
+            // Polymorphism: buat objek sesuai role
                 switch (role) {
-                    case "ADMIN": return new Admin(id, un, em, pw, nim);
-                    case "DOSEN": return new Dosen(id, un, em, pw, nim);
-                    default: return new Mahasiswa(id, un, em, pw, nim);
+                    case "ADMIN": user = new Admin(id, un, em, pw, nim); break;
+                    case "DOSEN": user = new Dosen(id, un, em, pw, nim); break;
+                    default: user = new Mahasiswa(id, un, em, pw, nim);
+                }
+            
+                // ✅ Gunakan method dari interface Loginable untuk verifikasi
+                if (user.login(un, pw)) {
+                    System.out.println("✅ Login berhasil: " + un + " sebagai " + user.getRole());
+                    return user;
                 }
             }
         }

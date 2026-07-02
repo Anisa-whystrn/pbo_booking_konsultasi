@@ -1,7 +1,6 @@
 package com.booking.model;
 
-public abstract class User {
-    // Encapsulation: atribut private
+public abstract class User implements Loginable {
     private int id;
     private String username;
     private String email;
@@ -20,8 +19,18 @@ public abstract class User {
         this.nimNip = nimNip;
     }
 
-    // Polymorphism: method abstract yang wajib di-override
     public abstract String getDashboardTitle();
+
+    // ✅ Implementasi dari interface Loginable
+    @Override
+    public boolean login(String username, String password) {
+        return this.username.equals(username) && this.password.equals(password);
+    }
+
+    @Override
+    public void logout() {
+        System.out.println("User " + this.username + " telah logout.");
+    }
 
     // Getters & Setters
     public int getId() { return id; }
