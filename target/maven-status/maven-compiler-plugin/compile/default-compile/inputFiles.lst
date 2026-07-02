@@ -8,9 +8,12 @@ D:\projek_konsultasi\src\main\java\com\booking\model\Dosen.java
 D:\projek_konsultasi\src\main\java\com\booking\model\JadwalKonsultasi.java
 D:\projek_konsultasi\src\main\java\com\booking\model\Loginable.java
 D:\projek_konsultasi\src\main\java\com\booking\model\Mahasiswa.java
+D:\projek_konsultasi\src\main\java\com\booking\model\StatusBooking.java
 D:\projek_konsultasi\src\main\java\com\booking\model\User.java
 D:\projek_konsultasi\src\main\java\com\booking\report\LaporanBookingImpl.java
 D:\projek_konsultasi\src\main\java\com\booking\report\LaporanService.java
+D:\projek_konsultasi\src\main\java\com\booking\service\AntrianKonsultasi.java
+D:\projek_konsultasi\src\main\java\com\booking\service\BookingService.java
 D:\projek_konsultasi\src\main\java\com\booking\ui\AdminDashboard.java
 D:\projek_konsultasi\src\main\java\com\booking\ui\DosenDashboard.java
 D:\projek_konsultasi\src\main\java\com\booking\ui\LoginView.java
